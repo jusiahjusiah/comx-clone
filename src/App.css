@@ -1,0 +1,170 @@
+:root {
+  --padding: 10px;
+}
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins';
+  scroll-behavior: smooth;
+}
+
+.app-container {
+  min-height: 100vh
+}
+
+nav {
+  /* how to put sticky navbar */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /* how to put sticky navbar */
+  display: flex;
+  padding-top: 1em;
+  justify-content: center;
+  color: white;
+  /* because there's a bug that some elements overlap */
+  z-index: 2;
+
+}
+
+nav ul {
+  display: inline-flex;
+  list-style: none;
+  align-items: center;
+}
+
+nav li {
+  margin-inline: 2em;
+  font-size: 1.1em;
+}
+
+nav li:hover {
+  color:white;
+  border-bottom: 2px solid white;
+}
+
+/* styling below can shrink your images on browser resize */
+nav img {
+  width: 100%;
+  max-width: 120px;
+  height: auto;
+  min-width: 50px;
+  margin-inline: 1em;
+  margin-block: 1em;
+
+}
+
+/* for sticky navbar on scroll */
+.sticky {
+  color: black;
+  background-color: rgba(255,255,255, 0.5);
+  -webkit-backdrop-filter: blur(1em);
+  backdrop-filter: blur(1em);
+}
+
+.sticky ul {
+  color: black;
+}
+
+.sticky li:hover  {
+  color:black;
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.sticky img {
+  width: 100%;
+  max-width: 70px;
+  min-width: 30px;
+  height: auto;
+}
+/* hero section */
+.hero {
+  padding-top: 80px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.hero h1 {
+  letter-spacing: 10px;
+  font-size: 12em;
+  margin-bottom: 0.5em;
+  font-weight: 700;
+}
+
+.hero h4 {
+  font-size: 1.8em;
+  margin-bottom: 0.6em;
+}
+
+.hero p {
+  font-size: 1.1em;
+  margin-bottom: 0.2em;
+}
+
+.hero i {
+  position: absolute;
+  bottom: 3em;
+  z-index: 1;
+}
+
+/* content section */
+
+.content {
+  height: 1800px;
+  text-align: center;
+  margin-top: 2em;
+}
+
+/* utilities */
+.white-font {
+  color: white;
+}
+
+.transition {
+  transition: all 0.6s ease-out;
+}
+
+.gradient {
+  /* gradient background so that navbar won't disappear*/
+  background: hsla(334, 88%, 50%, 1);
+  background: linear-gradient(0deg, hsla(334, 88%, 50%, 1) 0%, hsla(21, 98%, 52%, 1) 100%);
+  background: -moz-linear-gradient(0deg, hsla(334, 88%, 50%, 1) 0%, hsla(21, 98%, 52%, 1) 100%);
+  background: -webkit-linear-gradient(0deg, hsla(334, 88%, 50%, 1) 0%, hsla(21, 98%, 52%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EF0F71", endColorstr="#FC5F0D", GradientType=1);
+}
+
+/* .blur { 
+  -webkit-backdrop-filter: blur(1em);
+  backdrop-filter: blur(1em);
+
+} */
+
+.white {
+  color: white;
+}
+
+/* arrow down icon */
+.arrow {
+  border: solid white;
+  border-width: 0 6px 6px 0;
+  display: inline-block;
+  padding: 20px;
+
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.flex-column {
+  flex-direction: column;
+  justify-content: center;
+}
