@@ -11,7 +11,7 @@ window.addEventListener("scroll", () => {
 });
 }, []);
 return (
-<nav className={ scroll ? "sticky transition blur" : "transition blur"}>
+<nav className={ scroll ? "sticky transition" : "transition"}>
     <ul>
         <li> Students </li>
         <li> Teams </li>
