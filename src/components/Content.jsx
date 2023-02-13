@@ -9,12 +9,13 @@ export default function Content(props) {
         if(data == true) {
         return (
             <div className="content-reversed">
-                <div style={backgroundImage} className=""></div>
+
                 <div className="word-padding blue-gradient">
                     <h1 className="h1">{props.title} </h1>
                     <p className="p">{props.description}</p>
                     <button className="button blue-solid white"> View all {props.destination}</button>
                 </div>
+                <div style={backgroundImage} className=""></div>
             </div> 
         )
     } else {

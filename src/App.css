@@ -11,7 +11,7 @@
   scroll-behavior: smooth;
   z-index: 1;
   line-height: 1em;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .app-container {
@@ -43,7 +43,7 @@ nav ul {
 
 nav li {
   margin-inline: 2em;
-  font-size: 1.1em;
+  font-size: 18px;
 }
 
 nav li:hover {
@@ -97,7 +97,7 @@ nav img {
 
 .hero h1 {
   letter-spacing: 10px;
-  font-size: 12em;
+  font-size: 160px;
   margin-bottom: 0.5em;
   font-weight: 700;
 }
@@ -152,6 +152,7 @@ nav img {
   padding-block-end: 10px;
   align-items: center;
 }
+
 
 /*testimonial section */
 
@@ -234,7 +235,7 @@ nav img {
 
 .purple-gradient {
   background: rgb(141,89,225);
-  background: linear-gradient(150deg, rgb(130, 66, 231) 0%, rgba(168,117,233,1) 70%, rgba(194,147,231,1) 100%);
+  background: linear-gradient(150deg, rgb(124, 42, 255) 0%, rgb(166, 107, 243) 70%, rgba(194,147,231,1) 100%);
 }
 
 .yellow-gradient {
@@ -302,7 +303,7 @@ nav img {
   }
 
   .button {
-    font-size: 1.2em;
+    font-size: 18px;
     border-radius: 20px;
     border: none;
     font-weight: 600;
@@ -311,7 +312,7 @@ nav img {
   }
 
   .h1 {
-    font-size: 2em;
+    font-size: 30px;
   }
 
   .h1-1-6 {
@@ -320,20 +321,30 @@ nav img {
 
 
   .p {
-    font-size: 1em;
+    font-size: 17px;
     padding-block-end: 20px;
-    line-height: 1.5em;
+    line-height: 28px;
   }
 
   .p-occupation {
-    font-size: 1em;
-    line-height: 1.1em;
+    line-height: 5px;
   }
 
   .word-padding {
     padding-block: 50px;
     padding-inline: 50px;
   }
+
+  .word-padding-top {
+    padding-block-start: 50px;
+  }
+
+  .word-padding-bottom {
+    padding-block-end: 50px;
+  }
+
+
+
 
   .row-gap {
     padding-block-end: 30px;
@@ -354,6 +365,9 @@ nav img {
   }
 
   .padding-inline-40 {
-    padding-inline: 11%;
+    padding-inline: 13%;
   }
 
+  .column-gap-40 {
+    column-gap: 80px;
+  }

@@ -31,9 +31,9 @@ function App() {
 
       <Content 
         photo={showcase} 
-        title={"Welcome to COMX"} 
-        description={"COMX is an incredible exhibition of digital projects spanning videogames, interactive technologies, animation, and art, all created by the talented students of the University of Gloucestershire’s School of Game Technologies."} 
-        destination={"Students"} 
+        title={"Final Year Showcase"} 
+        description={"Check out what our final year students have been working on over the last few months. Each year, they group up and put their skills to the test by creating their own original projects."} 
+        destination={"Showcase"} 
         destinationLink={"/"} 
         reverseColumn={true}/>
         </div>
