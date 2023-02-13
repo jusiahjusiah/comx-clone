@@ -141,7 +141,7 @@ nav img {
 
 .content > * , .content-reversed > * {
   border-radius: 20px;
-  max-height: 450px;
+  max-height: auto;
 }
 
 
